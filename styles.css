@@ -1,0 +1,60 @@
+* {
+  color: #3f3851;
+}
+
+.screen {
+  width: 690px;
+  height: 406px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px #3f3851 solid;
+  background-image: url('./images/ski-fondo.png');
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0.1em;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 1em;
+  margin-top: 0.1em;
+}
+
+button {
+  border: solid #eda27f;
+  border-width: 2px;
+  border-radius: 4px;
+  background-color: #eda27f;
+}
+
+button > p {
+  display: flex;
+  margin: auto 0;
+  align-items: center;
+  padding-top: 2.5px;
+  font-size: 18px;
+  color: white;
+}
+
+#start-screen,
+#end-screen {
+  background-size: cover;
+  background-position: center center;
+}
+
+#start-screen p {
+  margin-bottom: 0.2em;
+}
+
+#end-screen {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 0.2em;
+}

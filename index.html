@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="screen" id="start-screen">
+      <h1>Game</h1>
+      <button id="startBtn"><p>Play</p></button>
+    </div>
+    <div class="screen" id="playing-screen" style="display: none">
+      <canvas width="690" height="406"></canvas>
+    </div>
+    <div class="screen" id="end-screen" style="display: none">
+      <h2>End game</h2>
+      <button id="tryAgainBtn"><p>Try Again</p></button>
+    </div>
+    <script src="js/Utils.js"></script>
+    <script src="js/Tree.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/Main.js"></script>
+  </body>
+</html>
