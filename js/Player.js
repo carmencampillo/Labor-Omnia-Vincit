@@ -1,7 +1,8 @@
 class Player {
   constructor(x, y, context) {
     this.playerImg = new Image();
-    this.playerImg.src = '../images/Pollito esquiando.jpeg';
+    this.playerImg.src = './images/Pollito esquiando.png';
+    
 
     this.x = x;
     this.y = y;

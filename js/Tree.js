@@ -1,7 +1,7 @@
 class Tree {
     constructor(x, y, context) {
       this.treeImg = new Image();
-      this.treeImg.src = '../images/snowtree.png';
+      this.treeImg.src = './images/snowtree.png';
   
       this.x = x;
       this.y = y;

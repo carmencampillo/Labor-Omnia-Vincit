@@ -33,7 +33,7 @@ class Game {
   gameUpdate(stamp) {
     if (!this.IsRunning) return;
 
-    if (Math.random() <= 0.0025) {
+    if (Math.random() <= 0.007) {
       this.trees.push(new Tree(0, randomInt(0, this.canvasHeight), contextElement));
     }
 
